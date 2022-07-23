@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        #login{
+             /* border:2px solid red; */
+             width: 100%;
+             display: flex;
+        }
+        #login div{
+            /* border: 3px solid blue; */
+            width: 70%;
+          
+        
+        }
+        #login div:nth-child(2) img{
+            /* border: 10px solid red; */
+            margin-left: -260px;
+            
+        }
+     
+        .login-2 img{
+          width: 130%;
+          height: 105%;
+          /* border: 10px solid black; */
+        }
+
+        .login-1 div img{
+            width: 15%;
+        }
+        .login-1 div img:hover{
+            transform: rotate(-5deg);
+        }
+        .login-1 div>h1{
+            font-size: 50px;
+             font-weight: lighter;
+        }
+        .login-1 div>p{
+            font-size: 18px;
+             
+        }
+
+     
+         .login-1 div:nth-child(3) input{
+            /* border: 1px solid  red; */
+            width: 96%;
+            height: 50px;
+            border:2px solid #007c89;
+         }
+         .login-1 div input:nth-child(3):hover{
+            border: 2px solid #036f7b;
+         }
+         .login-1 div:nth-child(4) input{
+            /* border: 1px solid  red; */
+            width: 96%;
+            height: 50px;
+            border:2px solid #007c89;
+         }
+         .login-1 div:nth-child(3) h4{
+            /* border: 1px solid  red; */
+            width: 30%;      
+            font-size: 23px;
+            margin-bottom: 3px;
+         }
+         .login-1 div:nth-child(4) h4{
+            /* border: 1px solid  red; */
+            width: 30%;      
+            font-size: 23px;
+            margin-bottom: 3px;
+         }
+
+         .login-1 div:nth-child(5) button{
+            font-size : 22px; 
+            font-weight: bold;
+            width:97%;
+            height: 66px;
+            background-color: #1E516C;
+            color: white;
+            border: none;
+            margin-top: 55px;
+         }
+         .login-1 div:nth-child(5) button:hover{
+            background-color: #007c89;
+         }
+
+       
+
+
+
+         
+         .login-1-last{
+            /* border: 1px solid blue; */
+            width: 60%;
+            margin: auto;
+            display: flex; 
+            margin-left: 0px;
+           
+         }
+         .login-1-last input{
+            /* border: 1px solid red; */
+            width: 30%;
+            height: 26px;
+            margin-top: 13px;
+         }
+         .login-1-last input+p{
+            /* border: 1px solid red; */
+            font-size: 25px;
+            margin-left: -60px;
+            margin-top: 12px;
+         }
+
+
+         .forget{
+            text-align: right;
+           
+            font-size: 25px;
+            padding-left:-6px;
+            /* border: 1px solid red; */
+            width: 98%;
+         
+         }
+         .forget:hover{
+            text-decoration: underline;
+         }
+
+         .login-1 div:last-child p{
+          font-size : 21px; 
+            margin-top: 70px;
+            text-align: center;
+            font-size: 17px;
+            color: gray;
+          
+         }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div id="login">
+            <div class="login-1">
+                    <div>
+                        <img src="data:image/png;base64,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" alt="monkey">
+                    </div>
+
+                    <div>
+                        <h1>Log in</h1>
+                        <p>Need a Mailchimp account? Create an account</p>
+                    </div>
+
+                    <div>
+                         <h4>Username</h4>
+                         <input type="text" placeholder="" id="loginuser" >
+                    </div>
+
+                    <div>
+                        <h4>Password</h4>
+                        <input type="password" placeholder="" id="loginpass">
+                    </div>
+
+                    <div>
+                        <button class="Loginjs">Log In</button>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="login-1-last">
+                        <input type="checkbox" name="" id="">
+                        <p>Keep me logged in</p>
+                    </div>
+
+                    <div>
+                        <h4 class="forget">Forgat passward</h4>
+                    </div>
+
+                    <div>
+                        <p>©2001–2022 All Rights Reserved. Mailchimp® is a registered trademark<br> of The Rocket Science Group, LLC. Cookie Preferences, Privacy, and<br> Terms.</p>
+                    </div>
+                   
+                
+            </div>
+                
+    
+            <div class="login-2">
+                <img src="https://images.squarespace-cdn.com/content/v1/5d139d01c206c3000132c346/1561568210808-WSJDUN88V3OTT1LPGLVL/Yellow.png?format=1500w" alt="foody">
+            </div>
+    </div>
+    
+</body>
+</html>
+
+
+<script>
+
+let signupdata = JSON.parse(localStorage.getItem("clintdata")) || [];
+// console.log(signupdata);
+
+document.querySelector(".Loginjs").addEventListener("click",Loginfun);
+
+function Loginfun(event){
+    
+    event.preventDefault();
+    let obj = {
+       
+            username:document.querySelector("#loginuser").value,
+            passwoard:document.querySelector("#loginpass").value
+    }
+    // console.log(obj);
+
+    signupdata.forEach(function(ele){
+        if(ele.username == obj.username && ele.passwoard == obj.passwoard)
+        {
+            window.location.href="index.html";
+        }
+       
+        
+    });
+}
+
+
+
+
+
+</script>
