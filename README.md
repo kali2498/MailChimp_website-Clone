@@ -11,7 +11,7 @@ Unit-2 contract week combative-tomatoes-5562 - Mailchimp.com
 ![Screenshot (2454)](https://user-images.githubusercontent.com/103638485/207079505-51efbc3f-d999-4278-967e-482591540517.png)
 
 
-Sign-Up & Login Page
+<h2>Sign-Up & Login Page</h2>
 
 ![Screenshot (2455)](https://user-images.githubusercontent.com/103638485/207079573-b0615077-51da-49f0-9c52-aa2b3311d569.png)
 
