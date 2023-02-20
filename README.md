@@ -3,7 +3,7 @@
 MailChimp_website-Clone</h1>
 Unit-2 contract week combative-tomatoes-5562 - Mailchimp.com
 
-<h2>Mailchimp's All-In-One Platform Has Everything You Need to Manage Your Online Presence. Our Website Builder Helps Bring Your Unique Vision To Life — Start Building For Free. 100+ Templates. Accept Online Payments. Insights & Analytics. Sign Up For Free.</h2>
+Mailchimp's All-In-One Platform Has Everything You Need to Manage Your Online Presence. Our Website Builder Helps Bring Your Unique Vision To Life — Start Building For Free. 100+ Templates. Accept Online Payments. Insights & Analytics. Sign Up For Free.
 
 
 ![Screenshot (2451)](https://user-images.githubusercontent.com/103638485/207079438-2e5fc0c0-3956-4974-9e5c-94db7bb6f70e.png)
